@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesan Pizza</title>
+</head>
+
+<body>
+    <h2>Black Goose Bistro | Pizza-on-Demand</h2>
+    <small>
+        Our 12"wood-fired pizzas are available for deliverry. Build our custom pizza and we'll
+        deliver it within an hour.
+    </small>
+    <hr>
+
+    <form action="thankyou.html">
+        <table>
+            <tr>
+                <td colspan="3">
+                    <h3 align="center">Your Information</h3>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="name">Name</label>
+                </td>
+                <td>:</td>
+                <td>
+                    <input type="text" id="name">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="address">Address</label>
+                </td>
+                <td>:</td>
+                <td>
+                    <input type="text" id="address">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="phone">No Hanphone</label>
+                </td>
+                <td>:</td>
+                <td>
+                    <input type="number" id="phone">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="email">Email</label>
+                </td>
+                <td>:</td>
+                <td>
+                    <input type="email" id="email">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="instructions">Delivery Instructions</label>
+                </td>
+                <td>:</td>
+                <td>
+                    <textarea id="instructions" cols="17" rows="5"></textarea>
+                </td>
+            </tr>
+        </table>
+
+        <fieldset>
+            <legend>
+                <h3>Design Your Dream Pizza</h3>
+            </legend>
+
+            <h4>Crust (Choose One):</h4>
+
+            <div>
+                <input type="radio" id="classic-white" name="crust">
+                <label for="classic-white">Classic White</label>
+            </div>
+
+            <div>
+                <input type="radio" id="mulitgrain" name="crust">
+                <label for="mulitgrain">Multigrain</label>
+            </div>
+
+            <div>
+                <input type="radio" id="una-melt" name="crust">
+                <label for="una-melt">Una Melt</label>
+            </div>
+
+            <div>
+                <input type="radio" id="cheese" name="crust">
+                <label for="cheese">Cheesey Galor</label>
+            </div>
+
+            <div>
+                <input type="radio" id="meat-lovers" name="crust">
+                <label for="meat-lovers">Meat Lovers</label>
+            </div>
+
+            <h4>Topping (Choose as many as you want):</h4>
+
+            <div>
+                <input type="checkbox" id="white-sauce">
+                <label for="white-sauce">White Sauce</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="Mozzarela">
+                <label for="Mozzarela">Mozzarela cheese</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="pepprerani">
+                <label for="pepprerani">Pepprerani</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="Mushrooms">
+                <label for="Mushrooms">Mushrooms</label>
+            </div>
+
+            <h4>Number</h4>
+            <label for="numberOfPizzas">How many pizzas:</label>
+            <input type="number" id="numberOfPizzas">
+
+            <br><br>
+
+            <input type="submit" value="Bring me a pizza!">
+            <input type="reset" value="Reset">
+        </fieldset>
+    </form>
+</body>
+
+</html>

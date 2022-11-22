@@ -1,34 +1,33 @@
 .topbox{
     width: 100%;
     height: 100px;
-    background-color: #AEDD94;
+    background-color: #aedd94;
+    margin-bottom: 10px;
 }
 
 .container{
     display: flex;
+    margin-bottom: 10px;
     justify-content: space-between;
-    margin-top: 20px;
 }
 
-/* Mencari class box pertama di setiap container */
 .container .box:nth-child(1){
     background-color: #f4eb49;
     width: 20%;
 }
 
-/* Mencari class box kedua di setiap container */
 .container .box:nth-child(2){
     width: 79%;
 }
 
 .box{
-    height: 300px;
-}
-
-.bg-orange{
-    background-color: #f76424;
+    height: 150px;
 }
 
 .bg-blue{
-    background-color: #4dd7fa;
+    background-color: aqua;
+}
+
+.bg-orange{
+    background-color: coral;
 }

@@ -1,0 +1,17 @@
+/* Reset margin dan padding body */
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* Flex container */
+.container{
+    display: flex;
+}
+
+/* Flex item */
+img{
+    height: 11vw;
+    border: 1px solid grey;
+    flex-grow: 1;
+}
